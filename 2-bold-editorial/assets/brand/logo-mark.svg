@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="HONA Media mark">
+  <rect x="8" y="8" width="22" height="84" fill="#A50F15" rx="1"/>
+  <rect x="70" y="8" width="22" height="84" fill="#A50F15" rx="1"/>
+  <polygon points="30,28 30,72 76,50" fill="#A50F15"/>
+  <polygon points="38,36 38,64 66,50" fill="#f5f5f3"/>
+</svg>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HONA Media: 5 website designs</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#111; --card:#1a1a1a; --text:#f5f5f3; --muted:#9aa3a8; --red:#C41E3A; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family:Montserrat, system-ui, sans-serif; padding:32px 16px 64px; }
+  h1 { font-weight:800; font-size:clamp(28px,6vw,48px); margin:0 0 6px; }
+  p.lead { color:var(--muted); margin:0 0 32px; font-weight:300; }
+  .grid { display:grid; gap:20px; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); max-width:1200px; }
+  a.card { display:block; background:var(--card); border:1px solid #2a2a2a; border-radius:12px; padding:24px; color:inherit; text-decoration:none; transition:border-color .2s; }
+  a.card:hover, a.card:focus-visible { border-color:var(--red); outline:none; }
+  .num { color:var(--red); font-weight:800; font-size:14px; letter-spacing:.15em; }
+  h2 { margin:8px 0 8px; font-size:22px; font-weight:800; }
+  .desc { color:var(--muted); font-weight:300; line-height:1.5; margin:0; }
+</style>
+</head>
+<body>
+  <h1>HONA Media: pick your design</h1>
+  <p class="lead">Five directions for the new website. Open each one, on your phone too, and choose the one you like best.</p>
+  <div class="grid">
+    <a class="card" href="1-cinematic-dark/index.html"><div class="num">01</div><h2>Cinematic Dark</h2><p class="desc">A camera viewfinder feel with a timecode, your real past videos, and a slow showreel hero.</p></a>
+    <a class="card" href="2-bold-editorial/index.html"><div class="num">02</div><h2>Bold Editorial</h2><p class="desc">A dark magazine: huge headlines, numbered sections, projects as case files.</p></a>
+    <a class="card" href="3-minimal-luxury/index.html"><div class="num">03</div><h2>Minimal Luxury</h2><p class="desc">Quiet, premium, lots of black space. Photos turn from grey to colour as you hover.</p></a>
+    <a class="card" href="4-journey-story/index.html"><div class="num">04</div><h2>Journey Story</h2><p class="desc">A film opening that travels Paris, New York, London, Barcelona, Osaka and Toronto.</p></a>
+    <a class="card" href="5-creator-agency/index.html"><div class="num">05</div><h2>Creator Agency</h2><p class="desc">Bold and energetic: red blocks, moving tickers, video previews for brands.</p></a>
+  </div>
+</body>
+</html>

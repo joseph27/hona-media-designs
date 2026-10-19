@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HONA Media — Be Seen. Be Here.</title>
+  <meta name="description" content="HONA Media Network is a video production company filming events, brands and behind-the-scenes stories across Paris, New York, London, Barcelona, Osaka and Toronto.">
+  <meta name="theme-color" content="#0b0b0b">
+  <link rel="canonical" href="https://www.honamedia.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="HONA Media — Be Seen. Be Here.">
+  <meta property="og:description" content="Video production, events coverage and travel content. One crew, six cities, every frame counts.">
+  <meta property="og:image" content="assets/hero-poster.jpg">
+  <meta property="og:url" content="https://www.honamedia.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="assets/brand/logo-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap">
+  <link rel="preload" as="image" href="assets/hero-poster.jpg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#journey">Skip to the journey</a>
+
+  <div class="letterbox letterbox--top" aria-hidden="true"></div>
+  <div class="letterbox letterbox--bottom" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="HONA Media home">
+      <svg class="brand__mark" viewBox="0 0 100 100" aria-hidden="true">
+        <rect x="10" y="8" width="22" height="84"/>
+        <rect x="68" y="8" width="22" height="84"/>
+        <polygon points="32,20 80,50 32,80"/>
+        <polygon class="brand__play" points="32,32 62,50 32,68"/>
+      </svg>
+      <span class="brand__word">HONA<small>MEDIA NETWORK</small></span>
+    </a>
+    <nav class="topnav" aria-label="Primary">
+      <a href="#journey">Journey</a>
+      <a href="#works">Works</a>
+      <a href="#crew">Services</a>
+      <a href="#contact" class="topnav__cta">Contact</a>
+    </nav>
+  </header>
+
+  <nav class="chapters" aria-label="Chapters">
+    <ol id="chapterIndex">
+      <li><a href="#paris" data-chapter="paris"><span>01</span>PAR</a></li>
+      <li><a href="#nyc" data-chapter="nyc"><span>02</span>NYC</a></li>
+      <li><a href="#london" data-chapter="london"><span>03</span>LDN</a></li>
+      <li><a href="#barcelona" data-chapter="barcelona"><span>04</span>BCN</a></li>
+      <li><a href="#osaka" data-chapter="osaka"><span>05</span>OSA</a></li>
+      <li><a href="#toronto" data-chapter="toronto"><span>06</span>TOR</a></li>
+    </ol>
+  </nav>
+
+  <main id="top">
+
+    <!-- ========== HERO / SHOWREEL ========== -->
+    <section class="hero" id="showreel" aria-labelledby="heroTitle">
+      <div class="hero__media" id="heroMedia">
+        <img class="hero__poster" src="assets/hero-poster.jpg" width="1920" height="1281" alt="Belal Elhusseiny operating a gimbal camera inside a conference hall" fetchpriority="high">
+        <!-- PLACEHOLDER: replace YOUTUBE_ID in js/main.js with the real showreel id -->
+        <div class="hero__frame" id="heroFrame" hidden></div>
+      </div>
+      <div class="hero__shade" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <p class="hero__kicker reveal" style="--d:.2s">HONA Media Network presents</p>
+        <h1 id="heroTitle" class="hero__title">
+          <span class="reveal" style="--d:.35s">Be Seen.</span>
+          <span class="reveal" style="--d:.5s">Be Here.</span>
+        </h1>
+        <p class="hero__sub reveal" style="--d:.7s">Video production that travels with the story — events, brands and behind-the-scenes, filmed in six cities and counting.</p>
+        <div class="hero__actions reveal" style="--d:.85s">
+          <button class="btn btn--play" id="playBtn" type="button">
+            <span class="btn__tri" aria-hidden="true"></span>
+            Play showreel
+          </button>
+          <a class="btn btn--ghost" href="#journey">Start the journey</a>
+        </div>
+      </div>
+
+      <div class="hero__slate reveal" style="--d:1s" aria-hidden="true">
+        <span>SCENE 01</span><span>TAKE 01</span><span>6 CITIES</span>
+      </div>
+      <a class="hero__scroll" href="#journey" aria-label="Scroll to the journey"><span></span></a>
+    </section>
+
+    <!-- ========== JOURNEY ========== -->
+    <section class="journey" id="journey" aria-label="The journey, city by city">
+      <svg class="route" id="route" aria-hidden="true" preserveAspectRatio="none">
+        <path id="routeTrack" class="route__track" d=""/>
+        <path id="routeLine" class="route__line" d=""/>
+      </svg>
+
+      <header class="journey__intro">
+        <p class="eyebrow">The journey</p>
+        <h2>One crew.<br>Six cities.<br>Every frame counts.</h2>
+        <p class="journey__lede">Scroll to follow the route we've filmed — from a Paris sidewalk to an Osaka expo hall. These are our own behind-the-scenes frames, not stock.</p>
+      </header>
+
+      <!-- PARIS -->
+      <article class="chapter" id="paris" data-chapter="paris">
+        <figure class="chapter__media">
+          <img style="object-position:center 55%" src="assets/bts/paris-01.jpg" width="900" height="1600" alt="Camera operator with a stabiliser rig filming a walking talent on a Paris street" loading="lazy">
+          <div class="chapter__grain" aria-hidden="true"></div>
+        </figure>
+        <div class="chapter__body">
+          <span class="chapter__pin" aria-hidden="true"></span>
+          <p class="chapter__meta"><span>Chapter 01</span><span>48.8566° N, 2.3522° E</span></p>
+          <h3 class="chapter__city"><span>Paris</span><small>France</small></h3>
+          <p class="chapter__caption">Street-level filming with a stabiliser rig, plus a corporate event for Riyadh Expo 2030. <em>(editable caption)</em></p>
+          <ul class="chapter__strip">
+            <li><img src="assets/bts/paris-02.jpg" width="1600" height="900" alt="Crew lighting a boardroom shoot for Riyadh Expo 2030 in Paris" loading="lazy"></li>
+            <li><img src="assets/bts/paris-03.jpg" width="900" height="1600" alt="Interview filmed on a purple-lit symposium stage" loading="lazy"></li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- NYC -->
+      <article class="chapter chapter--alt" id="nyc" data-chapter="nyc">
+        <figure class="chapter__media">
+          <img style="object-position:center 62%" src="assets/bts/nyc-01.jpg" width="900" height="1600" alt="Camera operator filming an interview at a council meeting in New York" loading="lazy">
+          <div class="chapter__grain" aria-hidden="true"></div>
+        </figure>
+        <div class="chapter__body">
+          <span class="chapter__pin" aria-hidden="true"></span>
+          <p class="chapter__meta"><span>Chapter 02</span><span>40.7128° N, 74.0060° W</span></p>
+          <h3 class="chapter__city"><span>New York</span><small>United States</small></h3>
+          <p class="chapter__caption">Interviews and delegate coverage at an international council meeting. <em>(editable caption)</em></p>
+          <ul class="chapter__strip">
+            <li><img src="assets/bts/nyc-02.jpg" width="900" height="1600" alt="Editor reviewing footage on a laptop during a live gala" loading="lazy"></li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- LONDON -->
+      <article class="chapter" id="london" data-chapter="london">
+        <figure class="chapter__media">
+          <img style="object-position:center 40%" src="assets/bts/london-01.jpg" width="1600" height="900" alt="Three-person film crew with cameras outside a conference venue in London" loading="lazy">
+          <div class="chapter__grain" aria-hidden="true"></div>
+        </figure>
+        <div class="chapter__body">
+          <span class="chapter__pin" aria-hidden="true"></span>
+          <p class="chapter__meta"><span>Chapter 03</span><span>51.5072° N, 0.1276° W</span></p>
+          <h3 class="chapter__city"><span>London</span><small>United Kingdom</small></h3>
+          <p class="chapter__caption">Conference and exhibition coverage with a three-camera crew. <em>(editable caption)</em></p>
+          <ul class="chapter__strip">
+            <li><img src="assets/bts/london-02.jpg" width="1600" height="900" alt="Crew selfie on the floor of a London trade show" loading="lazy"></li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- BARCELONA -->
+      <article class="chapter chapter--alt" id="barcelona" data-chapter="barcelona">
+        <figure class="chapter__media">
+          <img style="object-position:center 45%" src="assets/bts/barcelona-01.jpg" width="1600" height="900" alt="Crew standing in front of a large LED wall at a smart-city expo in Barcelona" loading="lazy">
+          <div class="chapter__grain" aria-hidden="true"></div>
+        </figure>
+        <div class="chapter__body">
+          <span class="chapter__pin" aria-hidden="true"></span>
+          <p class="chapter__meta"><span>Chapter 04</span><span>41.3874° N, 2.1686° E</span></p>
+          <h3 class="chapter__city"><span>Barcelona</span><small>Spain</small></h3>
+          <p class="chapter__caption">Expo booth films and social-ready recaps, delivered the same day. <em>(editable caption)</em></p>
+          <ul class="chapter__strip">
+            <li><img src="assets/bts/barcelona-02.jpg" width="900" height="1600" alt="Camera on a tripod filming a speaker on a lit stage" loading="lazy"></li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- OSAKA -->
+      <article class="chapter" id="osaka" data-chapter="osaka">
+        <figure class="chapter__media">
+          <img style="object-position:center 45%" src="assets/bts/osaka-01.jpg" width="1600" height="900" alt="Crew with cameras at the International Participants Meeting for Expo 2025 Osaka" loading="lazy">
+          <div class="chapter__grain" aria-hidden="true"></div>
+        </figure>
+        <div class="chapter__body">
+          <span class="chapter__pin" aria-hidden="true"></span>
+          <p class="chapter__meta"><span>Chapter 05</span><span>34.6937° N, 135.5023° E</span></p>
+          <h3 class="chapter__city"><span>Osaka</span><small>Japan</small></h3>
+          <p class="chapter__caption">Official coverage at the Expo 2025 International Participants Meeting. <em>(editable caption)</em></p>
+        </div>
+      </article>
+
+      <!-- TORONTO -->
+      <article class="chapter chapter--alt chapter--home" id="toronto" data-chapter="toronto">
+        <figure class="chapter__media">
+          <img style="object-position:center 40%" src="assets/bts/toronto-01.jpg" width="1600" height="1067" alt="Belal Elhusseiny operating a gimbal camera in an auditorium in Toronto" loading="lazy">
+          <div class="chapter__grain" aria-hidden="true"></div>
+        </figure>
+        <div class="chapter__body">
+          <span class="chapter__pin" aria-hidden="true"></span>
+          <p class="chapter__meta"><span>Chapter 06 — Home base</span><span>43.6532° N, 79.3832° W</span></p>
+          <h3 class="chapter__city"><span>Toronto</span><small>Canada</small></h3>
+          <p class="chapter__caption">Where the crew lives, edits and ships. Graduations, galas, brand films. <em>(editable caption)</em></p>
+          <ul class="chapter__strip">
+            <li><img src="assets/bts/toronto-02.jpg" width="1600" height="900" alt="Editing team working on laptops in a press room" loading="lazy"></li>
+            <li><img src="assets/bts/toronto-03.jpg" width="1600" height="1066" alt="Cinema camera filming a graduate and her family outdoors" loading="lazy"></li>
+          </ul>
+        </div>
+      </article>
+
+      <footer class="journey__outro">
+        <p class="eyebrow">Next stop</p>
+        <h2>Your city.</h2>
+        <a class="btn btn--primary" href="#contact">Book the crew</a>
+      </footer>
+    </section>
+
+    <!-- ========== SELECTED WORKS ========== -->
+    <section class="works" id="works" aria-labelledby="worksTitle">
+      <header class="section__head">
+        <p class="eyebrow">Selected works</p>
+        <h2 id="worksTitle">Stills from the reel</h2>
+        <p class="section__lede">Placeholder tiles — each one will link to a project film on YouTube or Vimeo.</p>
+      </header>
+      <ul class="works__grid">
+        <li class="work"><a href="#" aria-label="Riyadh Expo 2030 Symposium film — placeholder">
+          <img src="assets/bts/paris-03.jpg" width="900" height="1600" alt="" loading="lazy">
+          <span class="work__meta"><span class="work__tag">Event film</span><strong>Riyadh Expo 2030 Symposium</strong><em>Paris · 2025</em></span></a></li>
+        <li class="work"><a href="#" aria-label="Smart City Expo recap — placeholder">
+          <img src="assets/bts/barcelona-01.jpg" width="1600" height="900" alt="" loading="lazy">
+          <span class="work__meta"><span class="work__tag">Social recap</span><strong>Smart City Expo</strong><em>Barcelona · 2025</em></span></a></li>
+        <li class="work"><a href="#" aria-label="Expo 2025 participants meeting — placeholder">
+          <img src="assets/bts/osaka-01.jpg" width="1600" height="900" alt="" loading="lazy">
+          <span class="work__meta"><span class="work__tag">Events coverage</span><strong>Expo 2025 Participants Meeting</strong><em>Osaka · 2025</em></span></a></li>
+        <li class="work"><a href="#" aria-label="Convocation film — placeholder">
+          <img src="assets/bts/toronto-03.jpg" width="1600" height="1066" alt="" loading="lazy">
+          <span class="work__meta"><span class="work__tag">Brand film</span><strong>Convocation Day</strong><em>Toronto · 2025</em></span></a></li>
+        <li class="work"><a href="#" aria-label="Council meeting coverage — placeholder">
+          <img src="assets/bts/nyc-01.jpg" width="900" height="1600" alt="" loading="lazy">
+          <span class="work__meta"><span class="work__tag">Interviews</span><strong>COP16 Council Meeting</strong><em>New York · 2024</em></span></a></li>
+        <li class="work"><a href="#" aria-label="Street walk film — placeholder">
+          <img src="assets/bts/paris-01.jpg" width="900" height="1600" alt="" loading="lazy">
+          <span class="work__meta"><span class="work__tag">Travel / BTS</span><strong>Rue de Paris</strong><em>Paris · 2025</em></span></a></li>
+      </ul>
+    </section>
+
+    <!-- ========== CREW / SERVICES ========== -->
+    <section class="crew" id="crew" aria-labelledby="crewTitle">
+      <header class="section__head">
+        <p class="eyebrow">Crew credits</p>
+        <h2 id="crewTitle">What we do on set</h2>
+      </header>
+      <dl class="credits">
+        <div class="credits__row">
+          <dt>Video Production</dt>
+          <dd>Concept to final cut: brand films, corporate stories, product launches. Cinema cameras, lighting and sound on every shoot.</dd>
+        </div>
+        <div class="credits__row">
+          <dt>Events Coverage</dt>
+          <dd>Conferences, expos, galas and ceremonies, multi-camera when it matters. Highlights delivered before the after-party ends.</dd>
+        </div>
+        <div class="credits__row">
+          <dt>Travel &amp; BTS Content</dt>
+          <dd>We fly with you. Documentary-style behind-the-scenes that makes a trip, a tour or a launch feel like a film.</dd>
+        </div>
+        <div class="credits__row">
+          <dt>Editing &amp; Post</dt>
+          <dd>Colour, sound design, motion graphics and subtitles, cut for cinema screens and phone screens alike.</dd>
+        </div>
+        <div class="credits__row">
+          <dt>Social Content</dt>
+          <dd>Reels, shorts and vertical edits from every project, sized and captioned for Instagram, TikTok, LinkedIn and YouTube.</dd>
+        </div>
+      </dl>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about" id="about" aria-labelledby="aboutTitle">
+      <figure class="about__media">
+        <img src="assets/bts/london-01.jpg" width="1600" height="900" alt="Belal Elhusseiny with his crew holding cameras outside a venue" loading="lazy">
+      </figure>
+      <div class="about__body">
+        <p class="eyebrow">Director's note</p>
+        <h2 id="aboutTitle">Formerly Ultinity Film.<br>Now HONA Media.</h2>
+        <p>I'm Belal Elhusseiny, founder and director. For years we filmed under the name Ultinity Film; HONA (Arabic for <em>"here"</em>) is the same crew with a clearer promise: wherever your story is happening, we are here, and we make sure you are seen.</p>
+        <p>Based in Toronto. Crew and gear ready to travel.</p>
+        <ul class="about__facts">
+          <li><strong>6</strong><span>cities filmed</span></li>
+          <li><strong>120+</strong><span>events covered</span></li>
+          <li><strong>48h</strong><span>typical highlight turnaround</span></li>
+        </ul>
+        <p class="about__note">(Figures are placeholders — replace with real numbers.)</p>
+      </div>
+    </section>
+
+    <!-- ========== END CREDITS / CONTACT ========== -->
+    <section class="credits-roll" id="contact" aria-labelledby="contactTitle">
+      <div class="credits-roll__stage" aria-hidden="true">
+        <div class="credits-roll__scroll" id="creditsScroll">
+          <p class="roll__title">HONA MEDIA NETWORK</p>
+          <p class="roll__line"><span>Directed by</span><strong>Belal Elhusseiny</strong></p>
+          <p class="roll__line"><span>Filmed in</span><strong>Paris · New York · London</strong></p>
+          <p class="roll__line"><span></span><strong>Barcelona · Osaka · Toronto</strong></p>
+          <p class="roll__line"><span>Services</span><strong>Production · Events · BTS · Post · Social</strong></p>
+          <p class="roll__line"><span>Formerly</span><strong>Ultinity Film</strong></p>
+          <p class="roll__line"><span>Tagline</span><strong>Be Seen. Be Here.</strong></p>
+          <p class="roll__title roll__title--end">THE END IS WHERE WE START</p>
+        </div>
+      </div>
+
+      <div class="credits-roll__contact">
+        <p class="eyebrow">End credits</p>
+        <h2 id="contactTitle">Let's shoot<br>your next chapter.</h2>
+        <p class="section__lede">Tell us the city, the date and the story. We'll bring the crew.</p>
+        <div class="contact__actions">
+          <!-- PLACEHOLDER: replace the WhatsApp number -->
+          <a class="btn btn--primary" href="https://wa.me/10000000000" target="_blank" rel="noopener">WhatsApp us</a>
+          <!-- PLACEHOLDER: replace the email -->
+          <a class="btn btn--ghost" href="mailto:hello@honamedia.com">hello@honamedia.com</a>
+        </div>
+        <ul class="socials" aria-label="Social media">
+          <li><a href="https://instagram.com/honamedia" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://youtube.com/@honamedia" target="_blank" rel="noopener">YouTube</a></li>
+          <li><a href="https://tiktok.com/@honamedia" target="_blank" rel="noopener">TikTok</a></li>
+          <li><a href="https://linkedin.com/company/honamedia" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand brand--footer" href="#top" aria-label="Back to top">
+      <svg class="brand__mark" viewBox="0 0 100 100" aria-hidden="true">
+        <rect x="10" y="8" width="22" height="84"/>
+        <rect x="68" y="8" width="22" height="84"/>
+        <polygon points="32,20 80,50 32,80"/>
+        <polygon class="brand__play" points="32,32 62,50 32,68"/>
+      </svg>
+      <span class="brand__word">HONA<small>MEDIA NETWORK</small></span>
+    </a>
+    <p>© <span id="year">2026</span> HONA Media Network · Toronto, Canada · Be Seen. Be Here.</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

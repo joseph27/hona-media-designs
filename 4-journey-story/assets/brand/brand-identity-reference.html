@@ -1,0 +1,258 @@
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+  .brand-wrap { font-family: 'Montserrat', sans-serif; background: #f5f5f3; padding: 40px; }
+  .section-label { font-size: 11px; font-weight: 700; letter-spacing: 0.15em; color: #888; text-transform: uppercase; margin-bottom: 16px; }
+  .card { background: #fff; border-radius: 12px; padding: 32px; margin-bottom: 24px; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+  .dark-card { background: #1a1a1a; border-radius: 12px; padding: 32px; }
+</style>
+
+<div class="brand-wrap">
+
+  <!-- LOGO SECTION -->
+  <div class="card" style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:32px;">
+    <div>
+      <div class="section-label">Primary Logo</div>
+      <!-- Logo on white -->
+      <div style="display:flex; align-items:center; gap:20px;">
+        <svg width="72" height="72" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <!-- H shape with play button as crossbar -->
+          <!-- Left leg -->
+          <rect x="8" y="8" width="22" height="84" fill="#A50F15" rx="2"/>
+          <!-- Right leg -->
+          <rect x="70" y="8" width="22" height="84" fill="#A50F15" rx="2"/>
+          <!-- Play button as crossbar - triangle pointing right, centered -->
+          <polygon points="30,28 30,72 76,50" fill="#A50F15"/>
+          <!-- Cutout/negative space to show H crossbar effect -->
+          <polygon points="30,28 30,72 76,50" fill="#A50F15"/>
+          <!-- White negative triangle to create play button illusion inside H -->
+          <polygon points="38,36 38,64 66,50" fill="#ffffff"/>
+        </svg>
+        <div>
+          <div style="font-family:'Montserrat',sans-serif; font-size:32px; font-weight:900; color:#A50F15; letter-spacing:0.08em; line-height:1;">HONA</div>
+          <div style="font-family:'Montserrat',sans-serif; font-size:13px; font-weight:400; color:#36454F; letter-spacing:0.22em; margin-top:2px;">MEDIA</div>
+          <div style="font-family:'Montserrat',sans-serif; font-size:10px; font-weight:300; color:#888; letter-spacing:0.15em; margin-top:6px; font-style:italic;">Be Seen. Be Here.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Logo on dark -->
+    <div class="dark-card" style="display:flex; align-items:center; gap:20px; padding:24px 32px;">
+      <svg width="64" height="64" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <rect x="8" y="8" width="22" height="84" fill="#fff" rx="2"/>
+        <rect x="70" y="8" width="22" height="84" fill="#fff" rx="2"/>
+        <polygon points="30,28 30,72 76,50" fill="#fff"/>
+        <polygon points="38,36 38,64 66,50" fill="#1a1a1a"/>
+      </svg>
+      <div>
+        <div style="font-family:'Montserrat',sans-serif; font-size:28px; font-weight:900; color:#fff; letter-spacing:0.08em; line-height:1;">HONA</div>
+        <div style="font-family:'Montserrat',sans-serif; font-size:12px; font-weight:400; color:rgba(255,255,255,0.6); letter-spacing:0.22em; margin-top:2px;">MEDIA</div>
+        <div style="font-family:'Montserrat',sans-serif; font-size:9px; font-weight:300; color:rgba(255,255,255,0.4); letter-spacing:0.15em; margin-top:6px; font-style:italic;">Be Seen. Be Here.</div>
+      </div>
+    </div>
+
+    <!-- Icon only versions -->
+    <div style="display:flex; flex-direction:column; gap:16px; align-items:center;">
+      <div class="section-label" style="margin-bottom:4px;">Icon only</div>
+      <div style="display:flex; gap:16px; align-items:center;">
+        <!-- Large -->
+        <svg width="56" height="56" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="8" width="22" height="84" fill="#A50F15" rx="2"/>
+          <rect x="70" y="8" width="22" height="84" fill="#A50F15" rx="2"/>
+          <polygon points="30,28 30,72 76,50" fill="#A50F15"/>
+          <polygon points="38,36 38,64 66,50" fill="#ffffff"/>
+        </svg>
+        <!-- Small -->
+        <svg width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="8" width="22" height="84" fill="#A50F15" rx="2"/>
+          <rect x="70" y="8" width="22" height="84" fill="#A50F15" rx="2"/>
+          <polygon points="30,28 30,72 76,50" fill="#A50F15"/>
+          <polygon points="38,36 38,64 66,50" fill="#ffffff"/>
+        </svg>
+        <!-- Favicon -->
+        <div style="width:24px; height:24px; background:#A50F15; border-radius:4px; display:flex; align-items:center; justify-content:center;">
+          <svg width="16" height="16" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="8" width="22" height="84" fill="#fff" rx="2"/>
+            <rect x="70" y="8" width="22" height="84" fill="#fff" rx="2"/>
+            <polygon points="30,28 30,72 76,50" fill="#fff"/>
+            <polygon points="38,36 38,64 66,50" fill="#A50F15"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COLOR PALETTE -->
+  <div class="card">
+    <div class="section-label">Color Palette</div>
+    <div style="display:flex; gap:16px; flex-wrap:wrap;">
+      <div style="text-align:center;">
+        <div style="width:72px; height:72px; background:#A50F15; border-radius:50%; margin-bottom:8px;"></div>
+        <div style="font-size:11px; font-weight:700; color:#333; letter-spacing:0.05em;">#A50F15</div>
+        <div style="font-size:10px; color:#888; margin-top:2px;">Deep Crimson</div>
+        <div style="font-size:10px; color:#888;">Primary</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="width:72px; height:72px; background:#1a1a1a; border-radius:50%; margin-bottom:8px;"></div>
+        <div style="font-size:11px; font-weight:700; color:#333; letter-spacing:0.05em;">#1A1A1A</div>
+        <div style="font-size:10px; color:#888; margin-top:2px;">Jet Black</div>
+        <div style="font-size:10px; color:#888;">Text / BG</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="width:72px; height:72px; background:#36454F; border-radius:50%; margin-bottom:8px;"></div>
+        <div style="font-size:11px; font-weight:700; color:#333; letter-spacing:0.05em;">#36454F</div>
+        <div style="font-size:10px; color:#888; margin-top:2px;">Charcoal</div>
+        <div style="font-size:10px; color:#888;">Secondary</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="width:72px; height:72px; background:#f5f5f3; border-radius:50%; border:1px solid #e0e0e0; margin-bottom:8px;"></div>
+        <div style="font-size:11px; font-weight:700; color:#333; letter-spacing:0.05em;">#F5F5F3</div>
+        <div style="font-size:10px; color:#888; margin-top:2px;">Off White</div>
+        <div style="font-size:10px; color:#888;">Background</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="width:72px; height:72px; background:#C41E3A; border-radius:50%; margin-bottom:8px;"></div>
+        <div style="font-size:11px; font-weight:700; color:#333; letter-spacing:0.05em;">#C41E3A</div>
+        <div style="font-size:10px; color:#888; margin-top:2px;">Bright Crimson</div>
+        <div style="font-size:10px; color:#888;">Accent / CTA</div>
+      </div>
+    </div>
+    <div style="margin-top:20px; padding-top:20px; border-top:1px solid #eee;">
+      <div style="font-size:11px; color:#888; margin-bottom:8px; font-weight:600; letter-spacing:0.1em;">NOTE ON NAVY BLUE</div>
+      <div style="font-size:12px; color:#555; line-height:1.6;">Navy blue (#0000B0) from the original palette has been removed — it clashed with the crimson red. The palette is now cleaner and more cohesive with red, charcoal, and white.</div>
+    </div>
+  </div>
+
+  <!-- TYPOGRAPHY -->
+  <div class="card">
+    <div class="section-label">Typography — Montserrat</div>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:32px;">
+      <div>
+        <div style="font-family:'Montserrat',sans-serif; font-size:36px; font-weight:900; color:#1a1a1a; line-height:1.1;">Black 900</div>
+        <div style="font-family:'Montserrat',sans-serif; font-size:24px; font-weight:700; color:#1a1a1a; margin-top:8px;">Bold 700</div>
+        <div style="font-family:'Montserrat',sans-serif; font-size:18px; font-weight:400; color:#36454F; margin-top:8px;">Regular 400</div>
+        <div style="font-family:'Montserrat',sans-serif; font-size:16px; font-weight:300; color:#888; margin-top:8px;">Light 300</div>
+      </div>
+      <div>
+        <div style="font-family:'Montserrat',sans-serif; font-size:13px; font-weight:700; color:#A50F15; letter-spacing:0.2em; text-transform:uppercase; margin-bottom:12px;">Use cases</div>
+        <div style="font-size:12px; color:#555; line-height:2;">
+          <span style="font-weight:700;">Black 900</span> → Logo, hero headlines<br>
+          <span style="font-weight:700;">Bold 700</span> → Section titles, CTAs<br>
+          <span style="font-weight:700;">Regular 400</span> → Body copy, descriptions<br>
+          <span style="font-weight:700;">Light 300</span> → Taglines, captions
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BUSINESS CARD -->
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-bottom:24px;">
+    <!-- Business card front -->
+    <div>
+      <div class="section-label">Business Card — Front</div>
+      <div style="background:#A50F15; border-radius:12px; padding:28px 24px; aspect-ratio:1.75; display:flex; flex-direction:column; justify-content:space-between;">
+        <svg width="44" height="44" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="8" width="22" height="84" fill="#fff" rx="2"/>
+          <rect x="70" y="8" width="22" height="84" fill="#fff" rx="2"/>
+          <polygon points="30,28 30,72 76,50" fill="#fff"/>
+          <polygon points="38,36 38,64 66,50" fill="#A50F15"/>
+        </svg>
+        <div style="font-family:'Montserrat',sans-serif; font-size:18px; font-weight:900; color:#fff; letter-spacing:0.1em;">HONA</div>
+      </div>
+    </div>
+
+    <!-- Business card back -->
+    <div>
+      <div class="section-label">Business Card — Back</div>
+      <div style="background:#fff; border-radius:12px; padding:28px 24px; aspect-ratio:1.75; border:1px solid #eee; display:flex; flex-direction:column; justify-content:space-between;">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <svg width="28" height="28" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="8" width="22" height="84" fill="#A50F15" rx="2"/>
+            <rect x="70" y="8" width="22" height="84" fill="#A50F15" rx="2"/>
+            <polygon points="30,28 30,72 76,50" fill="#A50F15"/>
+            <polygon points="38,36 38,64 66,50" fill="#fff"/>
+          </svg>
+          <div>
+            <div style="font-family:'Montserrat',sans-serif; font-size:13px; font-weight:900; color:#A50F15; letter-spacing:0.1em;">HONA</div>
+            <div style="font-family:'Montserrat',sans-serif; font-size:8px; font-weight:400; color:#888; letter-spacing:0.2em;">MEDIA</div>
+          </div>
+        </div>
+        <div>
+          <div style="font-family:'Montserrat',sans-serif; font-size:13px; font-weight:700; color:#1a1a1a;">Your Name</div>
+          <div style="font-family:'Montserrat',sans-serif; font-size:10px; font-weight:400; color:#888; margin-top:2px;">Founder & Creative Director</div>
+          <div style="margin-top:10px; display:flex; flex-direction:column; gap:3px;">
+            <div style="font-size:9px; color:#555;">📧 hello@honamedia.com</div>
+            <div style="font-size:9px; color:#555;">🌐 www.honamedia.com</div>
+          </div>
+        </div>
+        <div style="font-family:'Montserrat',sans-serif; font-size:8px; font-weight:300; color:#aaa; letter-spacing:0.15em; font-style:italic;">Be Seen. Be Here.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOCIAL MEDIA & LETTERHEAD -->
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-bottom:24px;">
+    <!-- Instagram profile -->
+    <div>
+      <div class="section-label">Social Profile</div>
+      <div style="background:#fff; border-radius:12px; padding:20px; border:1px solid #eee;">
+        <div style="display:flex; gap:14px; align-items:center;">
+          <div style="width:56px; height:56px; background:#A50F15; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+            <svg width="32" height="32" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="8" width="22" height="84" fill="#fff" rx="2"/>
+              <rect x="70" y="8" width="22" height="84" fill="#fff" rx="2"/>
+              <polygon points="30,28 30,72 76,50" fill="#fff"/>
+              <polygon points="38,36 38,64 66,50" fill="#A50F15"/>
+            </svg>
+          </div>
+          <div>
+            <div style="font-family:'Montserrat',sans-serif; font-size:14px; font-weight:700; color:#1a1a1a;">honamedia</div>
+            <div style="font-family:'Montserrat',sans-serif; font-size:11px; color:#888; margin-top:2px;">Hona Media</div>
+            <div style="font-family:'Montserrat',sans-serif; font-size:10px; color:#555; margin-top:4px; line-height:1.5;">Photo · Video · Digital Marketing<br>📍 Be Seen. Be Here. 🎬</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Email signature -->
+    <div>
+      <div class="section-label">Email Signature</div>
+      <div style="background:#fff; border-radius:12px; padding:20px; border:1px solid #eee;">
+        <div style="border-left:3px solid #A50F15; padding-left:14px;">
+          <div style="font-family:'Montserrat',sans-serif; font-size:13px; font-weight:700; color:#1a1a1a;">Your Name</div>
+          <div style="font-family:'Montserrat',sans-serif; font-size:11px; color:#888; margin-top:1px;">Founder, Hona Media</div>
+          <div style="margin-top:8px; display:flex; align-items:center; gap:8px;">
+            <svg width="20" height="20" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="8" width="22" height="84" fill="#A50F15" rx="2"/>
+              <rect x="70" y="8" width="22" height="84" fill="#A50F15" rx="2"/>
+              <polygon points="30,28 30,72 76,50" fill="#A50F15"/>
+              <polygon points="38,36 38,64 66,50" fill="#fff"/>
+            </svg>
+            <div>
+              <span style="font-family:'Montserrat',sans-serif; font-size:12px; font-weight:900; color:#A50F15; letter-spacing:0.08em;">HONA</span>
+              <span style="font-family:'Montserrat',sans-serif; font-size:9px; font-weight:400; color:#888; letter-spacing:0.2em; margin-left:4px;">MEDIA</span>
+            </div>
+          </div>
+          <div style="font-family:'Montserrat',sans-serif; font-size:9px; font-weight:300; color:#aaa; margin-top:4px; font-style:italic; letter-spacing:0.1em;">Be Seen. Be Here.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAGLINE USAGE -->
+  <div class="dark-card" style="margin-bottom:0; text-align:center; padding:48px 32px;">
+    <svg width="56" height="56" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="margin-bottom:16px;">
+      <rect x="8" y="8" width="22" height="84" fill="#fff" rx="2"/>
+      <rect x="70" y="8" width="22" height="84" fill="#fff" rx="2"/>
+      <polygon points="30,28 30,72 76,50" fill="#fff"/>
+      <polygon points="38,36 38,64 66,50" fill="#1a1a1a"/>
+    </svg>
+    <div style="font-family:'Montserrat',sans-serif; font-size:40px; font-weight:900; color:#fff; letter-spacing:0.12em;">HONA</div>
+    <div style="font-family:'Montserrat',sans-serif; font-size:14px; font-weight:300; color:rgba(255,255,255,0.5); letter-spacing:0.35em; margin-top:4px;">MEDIA</div>
+    <div style="width:40px; height:2px; background:#A50F15; margin:20px auto;"></div>
+    <div style="font-family:'Montserrat',sans-serif; font-size:16px; font-weight:300; color:rgba(255,255,255,0.7); letter-spacing:0.2em; font-style:italic;">Be Seen. Be Here.</div>
+  </div>
+
+</div>
